@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image: url(wallpaperbetter.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+   
+
+.container{
+    height: 20vh;
+    width: 100%;
+   
+   
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+    margin-top: -10px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: white;
+}
+.nama{
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-style: italic;
+}
+.nama span{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.btn{
+    background: brown;
+   padding: 10px 20px;
+   color: aliceblue;
+   font-size: 20px;
+   border: none;
+   border-radius: 50px;
+   margin-right: 30px;
+}
+.btn:hover{
+    transform: scale(1.2);
+    color: rgb(9, 2, 2);
+    font-weight: bold;
+    cursor: pointer;
+}
